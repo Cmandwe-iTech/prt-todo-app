@@ -50,7 +50,8 @@ const Signup = () => {
       <div className="div">
         <input type="password" placeholder="enter confirmpassword here...."onChange={(e)=>setConfirmPass(e.target.value)} />
       </div>
-      <div><button onClick={SignupHandler}>SignUp</button></div>     
+      <div><button onClick={SignupHandler}>SignUp</button></div>
+      <Link to="/"><button>Member LogIn</button></Link>      
     </div>
   );
 };
