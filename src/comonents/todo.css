@@ -1,0 +1,58 @@
+body{
+    background: grey;
+}
+.todo-container{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+.header{
+    height: 5%;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    background: skyblue;
+}
+.nav-bar{
+    height: 90%;
+    width: 11%;
+    text-align: center;
+    background: yellow;
+    position: absolute;
+    top: 10%;
+}
+.table{
+    height: 90%;
+    width: 90%;
+    background: gainsboro;
+    position: absolute;
+    top:10%;
+    left:12%;
+}
+.table .new{
+    height: 30px;
+    width: 150px;
+    background: skyblue;
+    color: white;
+    margin: 10px auto 0;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+table{
+    margin: 10px auto 0;
+}
+tr th{
+    padding: 1em;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background: ghostwhite;
+}
+tr td{
+    padding: 1em;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background: bisque;
+}
